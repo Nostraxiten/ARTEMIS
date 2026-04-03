@@ -33,10 +33,13 @@ Para garantizar el correcto funcionamiento del framework, es imperativo cumplir 
     cd ARTEMIS
     ```
 
-2.  Instalación de dependencias:
-    *(Pendiente de adjuntar script de dependencias proporcionado por el usuario)*
+2.  Instalación de dependencias KALI:
+    *sudo apt update && sudo apt install -y nmap dnsutils whois traceroute gobuster theharvester subfinder amass wafw00f nikto whatweb masscan dnsrecon dnsenum*
 
-3.  Ejecución:
+2.1.  Instalación de dependencias TERMUX:
+    *pkg update && pkg install -y nmap dnsutils whois traceroute gobuster subfinder amass nikto whatweb dnsrecon dnsutils*
+
+4.  Ejecución:
     ```bash
     python artemis.py
     ```
