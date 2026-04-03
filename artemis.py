@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-TOOL DEFINITIVE - Massive OSINT Suite v1.0
+TOOL DEFINITIVE - Massive OSINT Suite v1.3
 50 Tools | Kali Linux & Termux Compatible
 """
 
