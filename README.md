@@ -29,6 +29,16 @@ ARTEMIS incluye una función de persistencia de datos. Durante la ejecución, el
 Para garantizar el correcto funcionamiento del framework, es imperativo cumplir con las dependencias del sistema y de Python:
 
 ```bash
+Dependencias Kali:
+sudo apt update && sudo apt install -y nmap dnsutils whois traceroute gobuster theharvester subfinder amass wafw00f nikto whatweb masscan dnsrecon dnsenum
+```
+
+```bash
+Dependencias Termux:
+pkg update && pkg install -y nmap dnsutils whois traceroute gobuster subfinder amass nikto whatweb dnsrecon dnsutils
+```
+
+```bash
 git clone https://github.com/nostraxiten/ARTEMIS.git
 cd ARTEMIS
 python artemis.py
