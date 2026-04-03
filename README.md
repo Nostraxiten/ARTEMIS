@@ -34,16 +34,24 @@ git clone https://github.com/nostraxiten/ARTEMIS.git
 cd ARTEMIS
 
 2. Dependencias Kali:
-```bash
+
 sudo apt update && sudo apt install -y nmap dnsutils whois traceroute gobuster theharvester subfinder amass wafw00f nikto whatweb masscan dnsrecon dnsenum
 
 2.1. Dependencia Termux:
-```bash
+
 pkg update && pkg install -y nmap dnsutils whois traceroute gobuster subfinder amass nikto whatweb dnsrecon dnsutils
 
 3. Ejecución:
-```bash
+
 python artemis.py
+
+
+AVISO LEGAL Y ÉTICO
+
+El uso de ARTEMIS para realizar actividades de acceso no autorizado en sistemas de los cuales no se posee autorización explícita es ilegal. Este software ha sido desarrollado con fines exclusivamente académicos y de auditoría ética. El desarrollador no asume responsabilidad alguna por daños o consecuencias legales derivados del uso inadecuado o malintencionado de esta herramienta.
+
+PROYECTO ARTEMIS
+
 
 
 
