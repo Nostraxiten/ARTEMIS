@@ -1305,7 +1305,7 @@ HELP_TEXT = f"""
 {C.GR}{'─'*55}{C.RS}
 
 {C.BD}USAGE:{C.RS}
-  {C.LM}python3 tool_definitive.py [OPTIONS]{C.RS}
+  {C.LM}python3 artemis.py [OPTIONS]{C.RS}
 
 {C.BD}OPTIONS:{C.RS}
   {C.GR}-t TARGET{C.RS}    IP address, domain, or full URL
@@ -1321,11 +1321,11 @@ HELP_TEXT = f"""
   {C.DK}(auto-detects Termux by checking PREFIX/com.termux){C.RS}
 
 {C.BD}EXAMPLES:{C.RS}
-  {C.GR}python3 tool_definitive.py -t example.com -m kali{C.RS}
-  {C.GR}python3 tool_definitive.py -t 8.8.8.8 -m termux{C.RS}
-  {C.GR}python3 tool_definitive.py -t https://target.com -m kali -o rep.txt{C.RS}
-  {C.GR}python3 tool_definitive.py --tools{C.RS}
-  {C.GR}python3 tool_definitive.py --menu{C.RS}
+  {C.GR}python3 artemis.py -t example.com -m kali{C.RS}
+  {C.GR}python3 artemis.py -t 8.8.8.8 -m termux{C.RS}
+  {C.GR}python3 artemis.py -t https://target.com -m kali -o rep.txt{C.RS}
+  {C.GR}python3 artemis.py --tools{C.RS}
+  {C.GR}python3 artemis.py --menu{C.RS}
 
 {C.BD}INSTALL DEPS (Kali):{C.RS}
   {C.DK}sudo apt install nmap nikto whatweb wafw00f masscan amass dnsrecon{C.RS}
