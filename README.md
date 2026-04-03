@@ -29,7 +29,7 @@ Para garantizar el correcto funcionamiento del framework, es imperativo cumplir 
 
 1.  Clonación del repositorio:
     ```bash
-    git clone [https://github.com/nostraxiten/ARTEMIS.git](https://github.com/nostraxiten/ARTEMIS.git)
+    git clone https://github.com/nostraxiten/ARTEMIS.git
     cd ARTEMIS
     ```
 
