@@ -29,7 +29,7 @@ ARTEMIS incluye una función de persistencia de datos. Durante la ejecución, el
 Para garantizar el correcto funcionamiento del framework, es imperativo cumplir con las dependencias del sistema y de Python.
 
 1. Clonación del repositorio:
-```bash
+
 git clone https://github.com/nostraxiten/ARTEMIS.git
 cd ARTEMIS
 
