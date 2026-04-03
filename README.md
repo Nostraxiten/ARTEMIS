@@ -26,24 +26,15 @@ Debido a la exhaustividad de los procesos de análisis y a la cantidad de herram
 ARTEMIS incluye una función de persistencia de datos. Durante la ejecución, el usuario tiene la opción de exportar todos los resultados obtenidos a un archivo de registro en formato de texto plano (.txt). Este reporte técnico detalla cronológicamente cada hallazgo realizado por las herramientas integradas para su posterior revisión o inclusión en informes de auditoría.
 
 ## INSTALACIÓN Y REQUISITOS
-Para garantizar el correcto funcionamiento del framework, es imperativo cumplir con las dependencias del sistema y de Python.
+Para garantizar el correcto funcionamiento del framework, es imperativo cumplir con las dependencias del sistema y de Python:
 
-1. Clonación del repositorio:
-
+```bash
 git clone https://github.com/nostraxiten/ARTEMIS.git
 cd ARTEMIS
-
-2. Dependencias Kali:
-
-sudo apt update && sudo apt install -y nmap dnsutils whois traceroute gobuster theharvester subfinder amass wafw00f nikto whatweb masscan dnsrecon dnsenum
-
-2.1. Dependencia Termux:
-
-pkg update && pkg install -y nmap dnsutils whois traceroute gobuster subfinder amass nikto whatweb dnsrecon dnsutils
-
-3. Ejecución:
-
 python artemis.py
+
+```
+
 
 
 AVISO LEGAL Y ÉTICO
